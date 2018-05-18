@@ -1,5 +1,5 @@
 # Pose Changes From a Different Point of View
-This article introduces the Pose Change Group(PCG) for viewing changes in pose from a space-fixed reference frame. In group-theoretic terms, the space of pose changes can be endowed with a direct product structure, with bi-invariant metric. The work has been published in the ASME Journal of Mechanism and Robotics [[pdf]](https://rpk.lcsr.jhu.edu/wp-content/uploads/2018/05/kinematics-new-view-for-publish-final.pdf).
+This article introduces the Pose Change Group(PCG) for viewing changes in pose from a space-fixed reference frame. In group-theoretic terms, the space of pose changes can be endowed with a direct product structure, with bi-invariant metric. The work has been published in the ASME Journal of Mechanisms and Robotics [[Link to the article]](https://rpk.lcsr.jhu.edu/publications/#Theoretical_Kinematics_and_CAD).
 
 Authors: Gregory S. Chirikjian (<gchirik1@jhu.edu>), Robert Mahony (<robert.mahony@anu.edu.au>), Sipu Ruan (<ruansp@jhu.edu>), Jochen Trumpf (<jochen.trumpf@anu.edu.au>)
 
