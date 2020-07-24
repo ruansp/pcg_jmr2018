@@ -4,6 +4,8 @@ close all; clear; clc;
 
 %% Define original frames
 figure; hold on; axis equal; grid on;
+view([1,0.1,0.5])
+
 drawFrame(eye(4),10);
 
 % Define frames
@@ -52,13 +54,3 @@ end
 plot3(xMultiR(1,:),xMultiR(2,:),xMultiR(3,:), 'k.');
 plot3(xMultiSE(1,:),xMultiSE(2,:),xMultiSE(3,:), 'b--');
 plot3(xMultiPCG(1,:),xMultiPCG(2,:),xMultiPCG(3,:), 'r');
-
-%% Function for 3D rotation
-% rotating along an axis defined by u, with angle theta
-function R = rot_axis(u, theta)
-u = u./norm(u,2);
-S = [    0  u(3) -u(2);
-      -u(3)   0   u(1);
-      u(2) -u(1)   0  ];
-R = eye(3) + sin(theta)*S + (1-cos(theta))*S^2;
-end
